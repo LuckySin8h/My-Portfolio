@@ -2986,6 +2986,59 @@ form .inputs-description {
   background-color: #ffffff;
 }
 
+
+.resume-btn {
+  z-index: 9998;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 130px;
+  border-radius: 40px;
+  height: 55px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 30px;
+  overflow: hidden;
+  transition-duration: .3s;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+  background: linear-gradient(82.3deg,
+      rgba(150, 93, 233, 1) 10.8%,
+      rgba(99, 88, 238, 1) 94.3%);
+}
+
+.text {
+  position: absolute;
+  right: 0%;
+  width: 0%;
+  opacity: 0;
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  transition-duration: .3s;
+}
+
+
+
+.sign {
+  width: 30%;
+  transition-duration: .3s;
+  padding-left: 20px;
+}
+
+
+ .text {
+  opacity: 1;
+  width: 70%;
+  transition-duration: .3s;
+  padding-right: 10px;
+}
+
+/* button click effect*/
+.resume-btn:active {
+  transform: translate(2px, 2px);
+}
 /* ------------------------------------------------*/
 /* Gallery Custom Styles End */
 /* ------------------------------------------------*/
